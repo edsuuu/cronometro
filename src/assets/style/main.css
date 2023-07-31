@@ -61,6 +61,7 @@ body {
 
 @media (max-width: 450px) {
     .container {
+    margin-top: 10px;
         width: 330px;
         
     }
