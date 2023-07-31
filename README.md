@@ -1,2 +1,4 @@
 # cronometro
- conometro em javascript 
+ Cronometro em JavaScript
+ 
+<a href="https://edsuuu.github.io/cronometro/src/index.html">Cronometro</a>
