@@ -40,11 +40,13 @@ body {
 .container button {
     cursor: pointer;
     font-weight: bold;
-    padding: 15px;
+    padding:13px;
     border-radius: 10px;
-    font-size: .3em;
     border: 1px solid white;
     text-transform: uppercase;
+}
+.container span {
+    font-size: 2em;
 }
 
 .container button:hover {
