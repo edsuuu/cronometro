@@ -23,15 +23,18 @@ function iniciarRelogio() {
 
 play.addEventListener('click', function (event) {
     relogio.classList.remove('pausado');
+    relogio.classList.remove('zerado');
     clearInterval(timer);
     iniciarRelogio();
 });
 pause.addEventListener('click', function (event) {
+    relogio.classList.remove('zerado');
     relogio.classList.add('pausado');
     clearInterval(timer);
 });
 clear.addEventListener('click', function (event) {
     relogio.classList.remove('pausado');
+    relogio.classList.add('zerado');
     clearInterval(timer);
     relogio.innerHTML = '00:00:00';
     segundos = 0;

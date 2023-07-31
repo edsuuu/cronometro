@@ -58,6 +58,9 @@ body {
 .pausado {
     color: red;
 }
+.zerado {
+    color: greenyellow;
+}
 
 @media (max-width: 450px) {
     .container {
