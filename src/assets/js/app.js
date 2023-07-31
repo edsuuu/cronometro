@@ -12,7 +12,7 @@ const play = document.querySelector('#play');
 const pause = document.querySelector('#pause');
 const clear = document.querySelector('#clear');
 let segundos = 0;
-let timer;
+    timer;
 
 function iniciarRelogio() {
     timer = setInterval(function () {
