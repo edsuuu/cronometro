@@ -61,7 +61,7 @@ body {
 
 @media (max-width: 450px) {
     .container {
-        width: 280px;
+        width: 330px;
         
     }
     .container h1 {
