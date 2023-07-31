@@ -59,3 +59,12 @@ body {
     color: red;
 }
 
+@media (max-width: 450px) {
+    .container {
+        width: 280px;
+        
+    }
+    .container h1 {
+        font-size: 2.2em;
+    }
+}
