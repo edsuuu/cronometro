@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     border: 1px solid;
-    width: 500px;
+    width: 400px;
     height: 400px;
 }
 
@@ -58,3 +58,4 @@ body {
 .pausado {
     color: red;
 }
+
