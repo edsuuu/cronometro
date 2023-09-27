@@ -1,0 +1,49 @@
+@import "global.scss";
+
+@import "keyframe.scss";
+
+.container {
+    background-color: rgba(0, 79, 251, 0.58);
+    border-radius: 15px;
+    color: white;
+    margin: 10% auto 10px auto;
+    @include centralizar();
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+
+    h1 {
+        font-size: 3em;
+        padding: 30px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    p {
+        font-weight: bold;
+        padding: 20px;
+        font-size: 3.5em;
+    }
+    button {
+        cursor: pointer;
+        padding: 13px;
+        border-radius: 10px;
+        border: 1px solid white;
+    }
+    span {
+        font-size: 2em;
+    }
+    button:hover {
+        background-color: rgb(0, 94, 161);
+        color: white;
+        transition: 0.4s;
+    }
+}
+.pausado {
+    color: red;
+}
+.zerado {
+    color: greenyellow;
+}
+.titulo-principal:after {
+    content: "|";
+    animation: pisca 1s infinite;
+}
